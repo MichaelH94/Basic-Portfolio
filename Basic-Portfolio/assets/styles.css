@@ -1,0 +1,78 @@
+/* Styles for basic portfolio assignment 8/2/18 */
+
+/* Styles for header */
+
+header {
+    position: fixed;
+    width: 960px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    border-bottom: 1px solid #dddddd;
+    background-color: #ffffff;
+}
+
+.name {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: left;
+    display: inline;
+    padding: 1px;
+}
+
+.header-right {
+    color: #000000;
+    position: absolute;
+    text-align: center;
+    right: 0;
+    padding: 12px;
+    font-size: 18px;
+    line-height: 25px;
+    display: inline;
+}
+
+/* Sticky footer */
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #666666;
+    text-align: center;
+}
+
+/* Styles for links */
+
+a:link {
+    color: #777777;
+    text-decoration:none
+}
+
+a.active {
+    color: #000000;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Styles for content */
+body {
+    color: #777777;
+    background-image: url('../assets/images/what-the-hex/what-the-hex.png');
+    max-width: 960px;
+    margin: auto;
+}
+
+h2 {
+    color: hsl(177, 39%, 48%);
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.content {
+    background-color: #ffffff;
+    box-sizing: border-box;
+}
+
+
