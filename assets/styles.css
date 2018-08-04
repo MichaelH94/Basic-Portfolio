@@ -80,15 +80,49 @@ p {
 
 .content {
     background-color: #ffffff;
-    box-sizing: border-box;
-    margin-top: 15px;
+    width:960px;
+    margin: 38px auto;
     font-family: 'Arial','Helvetica Neue', Helvetica, sans-serif;
 }
 
 img {
     float: left;
+    padding: 5px;
+    background-color: inherit;
+}
+ .pfoimg {
+    position: relative;
+    padding: 0;
+    margin: 0;
+ }
+
+ #pfoimg {
+	width: 250px;
+	margin-top: 40px;
 }
 
+.pfoimg {
+	height: 250px;
+    position: relative;
+    display: inline-block;
+    padding: 20px;
+}
+
+.pfocaption {
+    background: #4aaaa5;
+    color: #ffffff;
+    margin-top: 180px;
+    font-size: 22px;
+    position: absolute;
+    width: 245px;
+    height: 40px;
+    padding: 5px;
+	text-align: center;
+}
+
+.pfocaption:hover {
+    background: #777777;
+}
 /* Styles for contact form */
 
 .contact {
